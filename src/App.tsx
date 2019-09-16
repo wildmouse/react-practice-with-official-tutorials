@@ -1,8 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import "./components/organisms/Example"
 import Example from "./components/organisms/Example";
+import Counter from "./components/molecules/Counter";
 
 const App: React.FC = () => {
   return (
@@ -20,7 +20,7 @@ const App: React.FC = () => {
         >
           Learn React
         </a>
-        <Example/>
+        <Counter/>
       </header>
     </div>
   );
